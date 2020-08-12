@@ -32,10 +32,10 @@
         	<label>Nombre:</label><input type="text" name="attr_character_name"/>
     		<label>Alias:</label><input type="text" name="attr_alias" />
     		<label>Tipo de PJ:</label><input type="text" name="attr_tipo" />
-    		<label>Mano hábil:</label><input type="text" name="attr_mano" /> <!--Podría hacerse un listbox de resultados o un botón-->
+    		<label>Mano hábil:</label><input type="text" name="attr_mano" /> 
     		<label>Reputación:</label><input type="text" name="attr_reputacion" />
-    		<label>Aspecto:</label><input type="text" name="attr_aspecto" /> <!--Podría hacerse un listbox de resultados o un botón-->
-    		<label>Talento especial:</label><input type="text" name="attr_talento" /> <!--Podría hacerse un listbox de resultados o un botón-->
+    		<label>Aspecto:</label><input type="text" name="attr_aspecto" /> 
+    		<label>Talento especial:</label><input type="text" name="attr_talento" /> 
     	</div>
     	
         <!--Segunda columna-->
@@ -166,8 +166,7 @@ Aguante/asalto</textarea>
     <div class="4colrow" style="margin-left:2.5em; max-width: 800px; min-width: 800px">
         
                 <button type='roll' class='button-oculto' disabled></button>
-    		<label class='sheet-habsin'title="SEN">Artesanía </label><input type="number" name="attr_artesaniagen" class='short-oculto'disabled/>
-    		    <!-- BOTÓN CON 1D100 Y VERDE/ROJO ---- <button type='roll' class='button-general' value='&{template:customfw} {{title=@{character_name}}} {{subtitle= Tirada de Esconderse}} {{[[1d100cs<[[1*@{esconderse}]]cf>[[1+@{esconderse}]]]] de @{esconderse}}}'> -->  </button>
+    		<label class='sheet-habsin'title="SEN">Artesanía </label><input type="number" name="attr_artesaniagen" class='short-oculto'disabled/>    		    
     		    <button type='roll' class='button-general' value='&{template:customfw} {{title=@{character_name}}} {{subtitle= Tirada de Esconderse}} {{[[1d10cs>10cs<[[floor((@{esconderse}/10)-1)]]cf>[[floor((@{esconderse}/10)+1)]]]] ✺ [[1d20cs<[[1*0]]cf>[[1*21]]]] de @{esconderse}}}'></button>
     	    <label class='habilidades'title="SEN">Esconderse </label><input type="number" name="attr_esconderse" class='sheet-short' max='150' min='0' placeholder='SEN'/> 
                 <button type='roll' class='button-general' value='&{template:customfw} {{title=@{character_name}}} {{subtitle= Tirada de Medicina}} {{[[1d10cs>10cs<[[floor((@{medicina}/10)-1)]]cf>[[floor((@{medicina}/10)+1)]]]] ✺ [[1d20cs<[[1*0]]cf>[[1*21]]]] de @{medicina}}}'></button>
