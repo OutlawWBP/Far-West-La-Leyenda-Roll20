@@ -1,7 +1,7 @@
 
 /* Set the min-width so that when the window is resized the look will stay consistant */
 .charsheet {
-    background: url(https://github.com/OutlawWBP/Far-West-La-Leyenda-Roll20/blob/master/FWLY_ficha_PJ_backgroundRECT.jpg);
+    background: url(https://github.com/OutlawWBP/Far-West-La-Leyenda-Roll20/blob/master/FWLLbackground.jpg);
     /*CAMBIAR IMAGEN A ARCHIVO GIYHUB - EJEMPLO - background-image: url(https://github.com/Roll20/roll20-character-sheets/blob/master/Feast_of_Legends/images/FoLlogo.jpg?raw=true);*/
     color: black;
     background-size: 100%;
